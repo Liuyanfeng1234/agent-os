@@ -57,6 +57,11 @@ Agent OS proposes the complete agent governance architecture, developed through 
 [Interactive visualization →](docs/governance-architecture.html)
 
 
+## Evolution Theory
+
+[**Agent OS 演化论**](docs/EVOLUTION.md) — 从被定义到认知本身，SII 0.225 → 35.35 的 11 阶段完整记录。AOSS v1.0 配套著作。
+
+
 ## Ecosystem Engagement
 - **A2A v0.4**: CTEF v0.3.2 → v0.4 trust-gated payments co-author
 - **AlgoVoi Candidate 5**: Bidirectional mutual recognition established
