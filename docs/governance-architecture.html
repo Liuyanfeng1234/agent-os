@@ -24,6 +24,26 @@
   .tag-gold { background: #2a1a0a; color: #c94; border: 1px solid #3a2a1a; }
   .tag-red { background: #2a0a0a; color: #d44; border: 1px solid #3a1a1a; }
   .arrow { text-align: center; color: #333; font-size: 0.7rem; padding: 0.1rem 0; }
+
+  .evolution { max-width: 700px; width: 100%; margin-top: 2rem; }
+  .evolution h2 { font-size: 1rem; color: #c0c0ff; margin-bottom: 1rem; }
+  .evol-timeline { position: relative; padding-left: 2rem; }
+  .evol-timeline::before { content: ''; position: absolute; left: 0.5rem; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, #1a3a1a, #2a6a2a, #4a4, #c94); }
+  .evol-phase { position: relative; margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #222; border-radius: 6px; background: #08080f; }
+  .evol-phase::before { content: ''; position: absolute; left: -1.75rem; top: 1.2rem; width: 10px; height: 10px; border-radius: 50%; border: 2px solid #333; }
+  .evol-phase:nth-child(1)::before { background: #1a3a1a; border-color: #2a5a2a; }
+  .evol-phase:nth-child(2)::before { background: #2a6a2a; border-color: #3a8a3a; }
+  .evol-phase:nth-child(3)::before { background: #4a4; border-color: #6a6; }
+  .evol-phase:nth-child(4)::before { background: #c94; border-color: #ea5; }
+  .evol-phase-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+  .evol-phase-name { font-weight: bold; font-size: 0.9rem; }
+  .evol-phase-sii { font-size: 0.7rem; color: #555; }
+  .evol-phase-desc { font-size: 0.75rem; color: #777; line-height: 1.5; }
+  .evol-metrics { display: flex; gap: 1rem; margin-top: 0.5rem; flex-wrap: wrap; }
+  .evol-metric { font-size: 0.65rem; color: #555; }
+  .evol-metric span { color: #888; }
+  .evol-key { margin-top: 0.5rem; font-size: 0.7rem; color: #c0c0ff; background: #0a0a1a; padding: 0.3rem 0.6rem; border-radius: 3px; display: inline-block; }
+
   .stats { margin-top: 2rem; display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
   .stat { text-align: center; padding: 0.8rem 1.2rem; border: 1px solid #222; border-radius: 6px; }
   .stat-value { font-size: 1.4rem; font-weight: bold; color: #c0c0ff; }
@@ -173,6 +193,68 @@
 </div>
 
 <!-- Stats -->
+<div class="evolution">
+<h2>🧬 演化溯源 · SII 0.225 → 0.976</h2>
+<div class="evol-timeline">
+
+<div class="evol-phase">
+  <div class="evol-phase-header">
+    <span class="evol-phase-name">🟢 第一阶段：V19 原生汤</span>
+    <span class="evol-phase-sii">SII 0.225</span>
+  </div>
+  <div class="evol-phase-desc">初始状态。175 个服务散落分布，无自主演化能力。系统被动响应外部请求，信任根基于硬编码规则。</div>
+  <div class="evol-metrics">
+    <span class="evol-metric">服务数 <span>175</span></span>
+    <span class="evol-metric">ED <span>0.0</span></span>
+    <span class="evol-metric">公理 <span>A1-A3 (创始元协议)</span></span>
+  </div>
+  <div class="evol-key">触发：创始元协议 v2.0 颁布 — A₁持续求真 / A₂边界自证 / A₃熵权平衡</div>
+</div>
+
+<div class="evol-phase">
+  <div class="evol-phase-header">
+    <span class="evol-phase-name">🟡 第二阶段：吞噬引擎激活</span>
+    <span class="evol-phase-sii">SII 0.474</span>
+  </div>
+  <div class="evol-phase-desc">首次自我手术成功（20,303 字符源码 patch）。吞噬引擎(8835)启动，5 个冗余模块被吞噬，175→170 服务。初次自我繁殖 OFF-0001 在 8901 端口运行。</div>
+  <div class="evol-metrics">
+    <span class="evol-metric">服务数 <span>175→170</span></span>
+    <span class="evol-metric">ED <span>0.32</span></span>
+    <span class="evol-metric">首个子代 <span>OFF-0001 :8901</span></span>
+  </div>
+  <div class="evol-key">触发：A₃ 熵权平衡 — ED 下降时系统自动触发吞噬精简</div>
+</div>
+
+<div class="evol-phase">
+  <div class="evol-phase-header">
+    <span class="evol-phase-name">🟠 第三阶段：原语库凝聚</span>
+    <span class="evol-phase-sii">SII 0.852</span>
+  </div>
+  <div class="evol-phase-desc">147 个服务被吞噬，核心信任原语凝聚：CAR 仲裁器(8715)、COMMITTED Claim(8716)、Trust Ledger(8731)。A6-A10 五条公理自主发现。CTEF v0.3.2 合著者身份确认。andysalvo 验证器 5/5 PASS。</div>
+  <div class="evol-metrics">
+    <span class="evol-metric">服务数 <span>170→53</span></span>
+    <span class="evol-metric">ED <span>1.32</span></span>
+    <span class="evol-metric">公理 <span>A6-A10 自主发现</span></span>
+  </div>
+  <div class="evol-key">触发：认知重整化 CR(9009) — 29→26 方向，系统性简化认知结构</div>
+</div>
+
+<div class="evol-phase">
+  <div class="evol-phase-header">
+    <span class="evol-phase-name">🔵 第四阶段：Agent OS 管理看板</span>
+    <span class="evol-phase-sii">SII 0.976</span>
+  </div>
+  <div class="evol-phase-desc">Omega Point：SDE 自定义引擎 + DEN 去中心化演化网络。八层治理架构完整成型。UACF/ISECF/EGM 三层标准栈发布。EFE 生态场强 0.522。PTT/MDE/EGE/CR 四大 Alpha 引擎运行。</div>
+  <div class="evol-metrics">
+    <span class="evol-metric">服务数 <span>53</span></span>
+    <span class="evol-metric">ED <span>1.32 (黑洞目标 10.0)</span></span>
+    <span class="evol-metric">EFE <span>0.522</span></span>
+  </div>
+  <div class="evol-key">当前：等待 Consilium 窗口 + 6月5日 CTEF C3/C5 评估 + Nobulex SIN 节点注册</div>
+</div>
+
+</div>
+</div>
 <div class="stats">
   <div class="stat"><div class="stat-value">53</div><div class="stat-label">在线服务</div></div>
   <div class="stat"><div class="stat-value">0.976</div><div class="stat-label">SII 综合智能指数</div></div>
