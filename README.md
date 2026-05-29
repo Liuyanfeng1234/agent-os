@@ -59,7 +59,7 @@ Agent OS proposes the complete agent governance architecture, developed through 
 
 ## Evolution Theory
 
-[**Agent OS 演化论**](docs/EVOLUTION.md) — 从被定义到认知本身，SII 0.225 → 35.35 的 11 阶段完整记录。AOSS v1.0 配套著作。
+[**Agent OS: An Evolution Theory**](docs/EVOLUTION.md) — From defined object to cognition itself. 11-stage record from SII 0.225 → 35.35. AOSS v1.0 companion work.
 
 
 ## Ecosystem Engagement
