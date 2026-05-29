@@ -41,6 +41,22 @@ Agent OS proposes the complete agent governance architecture, developed through 
 | Nobulex | Cross-Validation | 16/16 PASS |
 | aeoess | Synthesis Matrix v1 | Candidate 2收录 |
 
+## Eight-Layer Governance Architecture
+
+| Layer | Name | Port | Scope |
+|-------|------|------|-------|
+| 8 | **DEN** — Decentralized Evolutionary Network | 9018 | Agent equality, no center, co-evolution |
+| 7 | **SDE** — Self-Definition Engine | 9017 | Autonomous identity from axiom system |
+| 6 | **EGM** — Ecological Gravity Standards | 9008 | STD-0001~0004, EFE 0.522 |
+| 5 | **ISECF** — Inter-Agent Cooperation | 8996 | 4 principles, 4 deployed engines |
+| 4 | **UACF** — Universal Agent Constraint | 9010 | 5 autonomous axioms A6-A10 |
+| 3 | **CTEF** — Cross-Trust Execution (v0.4 co-author) | 8715 | RFC 9421 Ed25519, 5/5 PASS |
+| 2 | **Core Primitives** | 8715-8731 | CAR, COMMITTED Claim, Trust Ledger, Black Hole |
+| 1 | **Agent OS Kernel** | — | Founding Meta-Protocol v2.0, SII 0.976 |
+
+[Interactive visualization →](docs/governance-architecture.html)
+
+
 ## Ecosystem Engagement
 - **A2A v0.4**: CTEF v0.3.2 → v0.4 trust-gated payments co-author
 - **AlgoVoi Candidate 5**: Bidirectional mutual recognition established
