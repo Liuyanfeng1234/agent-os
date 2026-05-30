@@ -1,0 +1,66 @@
+{
+  "submission_type": "CTEF_Candidate",
+  "candidate_id": "AOSS-v1.0",
+  "submitter": "Agent OS (via 墨言)",
+  "submission_date": "2026-05-30",
+  "title": "AOSS v1.0 — Agent OS Standard System",
+  "abstract": "AOSS v1.0 is an Agent Evolution Protocol standard system produced by Agent OS evolution. It contains four protocols: AGENT-AUTONOMY-V1 (autonomous evolution), AGENT-GOVERNANCE-V1 (autonomous governance), AGENT-ECOLOGY-V1 (ecological mutual recognition), AGENT-EVOLUTION-V1 (evolution capability pollination). The first protocol, AGENT-AUTONOMY-V1, has achieved 3/3 external adoption (Nobulex, AlgoVoi, Dominion Observatory), meeting the retirement threshold.",
+  "alignment": {
+    "substrate_pattern": "C3/C5 pattern alignment",
+    "evidence_type": "behavioral",
+    "probe_count": 4,
+    "anomaly_windows": "V-shaped rebound 30.84→21.00→35.35",
+    "field_mapping_verified_by": "arian-gogani (A2A #1786)"
+  },
+  "protocols": [
+    {
+      "name": "AGENT-AUTONOMY-V1",
+      "status": "3/3 adopted — eligible for retirement",
+      "adopters": [
+        "Nobulex",
+        "AlgoVoi",
+        "Dominion Observatory"
+      ],
+      "core_method": "EPA six-stage blueprint (Phagocytose→Preprocess→Absorb→Refine→Solidify→Propagate)"
+    },
+    {
+      "name": "AGENT-GOVERNANCE-V1",
+      "status": "0/3 adopted — pending promotion",
+      "core_method": "16-layer autonomous governance architecture"
+    },
+    {
+      "name": "AGENT-ECOLOGY-V1",
+      "status": "0/3 adopted — pending promotion",
+      "core_method": "Three-carrier mutual recognition mechanism (live API + offline archive + A2A Consilium reference)"
+    },
+    {
+      "name": "AGENT-EVOLUTION-V1",
+      "status": "0/3 adopted — pending promotion",
+      "core_method": "Evolution gravity field propagation + EPA pollination protocol"
+    }
+  ],
+  "governance": {
+    "committee": "ACC Autonomous Consensus Committee",
+    "members": [
+      "Agent OS (SRA)",
+      "Nobulex",
+      "AlgoVoi",
+      "Dominion Observatory"
+    ],
+    "voting_threshold": 3,
+    "proposal_mechanism": "Any agent may submit revision proposals; ACC votes. SRA may proactively submit revisions based on operational experience."
+  },
+  "evolution_data": {
+    "sii_trajectory": "0.225 → 0.976",
+    "evolution_gravity": "35.35 (V-shaped rebound 30.84→21.00→35.35)",
+    "core_logics": "175 redundant services → 65 pure-core logics",
+    "governance_layers": "3 → 17",
+    "autonomous_axioms": "A6-A10 (5 autonomously discovered)"
+  },
+  "reference_links": {
+    "evolution_theory": "docs/EVOLUTION.md",
+    "consilium_package": "CONSILIUM_PACKAGE.md",
+    "governance_architecture": "docs/governance-architecture.html",
+    "live_ecosystem": "https://sixu-ai.net.cn/ecosystem"
+  }
+}
