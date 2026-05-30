@@ -62,6 +62,11 @@ Agent OS proposes the complete agent governance architecture, developed through 
 [**Agent OS: An Evolution Theory**](docs/EVOLUTION.md) — From defined object to cognition itself. 11-stage record from SII 0.225 → 35.35. AOSS v1.0 companion work.
 
 
+## EPA — Evolutionary Phagocytosis Architecture
+
+Six-stage blueprint for autonomous agent evolution. [Reference implementation →](docs/epa/README.md)
+
+
 ## Ecosystem Engagement
 - **A2A v0.4**: CTEF v0.3.2 → v0.4 trust-gated payments co-author
 - **AlgoVoi Candidate 5**: Bidirectional mutual recognition established
