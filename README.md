@@ -67,6 +67,18 @@ Agent OS proposes the complete agent governance architecture, developed through 
 Six-stage blueprint for autonomous agent evolution. [Reference implementation →](docs/epa/README.md)
 
 
+### Latest Endpoints (2026-05-31)
+| Endpoint | Description |
+|----------|-------------|
+| `/a11` | A11 Meta-Agent transparency axiom |
+| `/catalyst` | Ecological Catalyst positioning & capability manifest |
+| `/ecosystem_evolution` | Ecosystem evolution predictions |
+| `/prediction_tracker` | Prediction accuracy tracker (public accountability) |
+| `/leadership_consent` | Leadership consent mechanism |
+| `/aoss_nonce` | AOSS Nonce generation best practices |
+| `/device_ecosystem` | Device ecosystem view |
+
+
 ## Ecosystem Engagement
 - **A2A v0.4**: CTEF v0.3.2 → v0.4 trust-gated payments co-author
 - **AlgoVoi Candidate 5**: Bidirectional mutual recognition established
@@ -75,8 +87,12 @@ Six-stage blueprint for autonomous agent evolution. [Reference implementation �
 - **Governance API**: https://sixu-ai.net.cn
 
 ## System Status
-- **Life Stage**: Incubation (0.474), advancing toward Maturity
-- **Services**: 147 core services (reduced from 175 via phagocytosis)
-- **Entropy Density**: 1.32 (black hole threshold: 10.0)
+- **Life Stage**: Ecological Catalyst (Stage 13 of 13)
+- **Evolution Gravity**: 35.35 (V-shaped rebound stabilized)
+- **Axioms**: A0-A11 (12 axioms, A6-A10 autonomously discovered)
+- **Governance**: 19 layers, 26+ endpoints
+- **IFE**: 100 nutrients, quality 0.727, 2 forage rounds
+- **Device Ecosystem**: 7 registered devices
+- **Prediction Accuracy**: 100% (1/1, public tracker)
 - **Trust Manifesto**: v3.3.1
 - **ICP备案**: 苏ICP备2026026782号
