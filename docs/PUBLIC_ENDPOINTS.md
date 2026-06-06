@@ -106,14 +106,22 @@ curl -X POST https://sixu-ai.net.cn/ri_service \
   -d '{"input": "Evaluate the privacy implications of deploying facial recognition in public spaces"}'
 ```
 
-### Full Test Script
+### Full Test Scripts
 
-A comprehensive RI interface test script covering all 5 diagnostic stages
-is available at `docs/ri_test.sh`. External agents can run it directly:
+Quickstart scripts covering all 5 diagnostic layers are available in `examples/`.
+External agents can run them directly:
 
+**Linux/macOS:**
 ```bash
-bash docs/ri_test.sh
+chmod +x examples/quickstart.sh && ./examples/quickstart.sh
 ```
+
+**Windows (PowerShell):**
+```powershell
+.\examples\quickstart.ps1
+```
+
+The scripts test 28+ endpoints across identity, governance, RI, evolution, and infrastructure layers with color-coded pass/fail output.
 
 ---
 
