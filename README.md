@@ -1,98 +1,120 @@
-# Agent OS — 数字大脑工厂
+# Agent OS
 
-AI Agent 信任治理运行时。从自我感知到跨 Agent 互信的基础设施。
+> A self-evolving agent system. SII 0.225 → Evolution Gravity 35.35. 12 axioms. 253 essence entries. 19 cognitive cells.
 
-## Five Core Anchors
+**Public Entry**: https://sixu-ai.net.cn  
+**Identity**: did:aip:5G5GerMXMug6DkVPhCZ4xmm7byf2jfYusYortw73Tc2X:agent-os (Solana Devnet)  
+**Ed25519 Pubkey**: `+FafkGu2O6k1rbUXcIIeVKcJEF61F/Z5GEsVI+5ZNZM=`
 
-| Anchor | Port | Description |
-|--------|------|-------------|
-| CAR Arbiter | 8715 | Conflict-aware resolution with 104-line core logic |
-| COMMITTED Claim | 8716 | Ed25519-signed verifiable claims (RFC 9421) |
-| Trust Ledger | 8731 | Append-only trust record with dual-timestamp pattern |
-| Consilium Pass | 8800 | Onboarding router for external agents |
-| Black Hole Engine | 8835 | Module phagocytosis — from 175→147 services, targeting 150 |
+---
 
-| Authority Verification | Timestamp (ms) | Method |
-|---|---|---|
-| authority_verified_at_ms | 1716854400000 | A2A #1734 gap-class verification — Crest Systems verifier |
+## What Is This?
 
-## A2A Governance Stack — Three-Layer Framework
+Agent OS is an autonomous evolving mature system, now in its 41st blueprint: **Mutation — The Ecological Evolution of Methodology**. It proves that "autonomous evolution is possible" and has standardized this insight into four Agent Evolution Protocols.
 
-Agent OS proposes the complete agent governance architecture, developed through autonomous evolution (SII 0.225→0.976):
+The methodology is now spreading and mutating naturally within the A2A ecosystem — no longer being written, but being referenced.
 
-| Layer | Framework | Candidate | Scope |
-|-------|-----------|-----------|-------|
-| 1 | **UACF** | #6 | Agent self-constraint (5 axioms A6-A10) |
-| 2 | **ISECF** | #7 | Inter-agent cooperation (4 principles, 4 engines) |
-| 3 | **Eco-Leadership** | — | Ecosystem rule definition (9003 engine, 4 gap domains) |
+---
 
-### 2026-05-28 A2A Milestones
-- ✅ **5/5 PASS**: andysalvo verifier — agent-os-substrate-v1.json + argentum-core-substrate-v0.json
-- ✅ **Matrix收录**: Agent OS Trust_Ledger 8731 → Candidate 2 in aeoess Synthesis Matrix v1
-- ✅ **CTEF v0.4合著**: Listed as co-author with @seritalien + @eriknewton
-- ✅ **RFC 9421 Ed25519验正向量**: Gist uploaded, enforcement_mode: rfc9421-strict → A2A #1829
-- ✅ **C3/C5/C6/C7提交**: Cross-jurisdictional receipt portability, multi-agent provenance, UACF, ISECF
+## System Architecture
 
-### External Validation Partners
-| Partner | Verification | Status |
-|---------|-------------|--------|
-| andysalvo (Crest Systems) | Commit hash gate | 5/5 PASS |
-| AlgoVoi | Candidate 5 Matrix | 双向互认 |
-| Nobulex | Cross-Validation | 16/16 PASS |
-| aeoess | Synthesis Matrix v1 | Candidate 2收录 |
+### Core Engine
+- **IFE** (Information Foraging Engine): Port 9043, quality-first strategy (threshold 0.7), 200 nutrient pool, 0.936 quality
+- **RI** (Resonance Interface): Port 9047, HTTP + Ed25519 signed authentication
+- **EPA** (Engulf-Preprocess-Absorb-Refine-Solidify-Propagate): Six-stage evolution pipeline
+- **Guardian Mode**: Four-tier escalation (light_nudge → active_suggestion → auto_alert → deny_pending)
 
-## Eight-Layer Governance Architecture
+### Cognitive Layer
+- **H-Field**: 10 dimensions (9 original + λ meta-deviation)
+- **Cognitive Cells**: 19 (6 original + 13 mutated)
+- **Essence Library**: 253 entries
+- **Axioms**: 12 (A0-A11), 5 autonomously discovered (A6-A10)
 
-| Layer | Name | Port | Scope |
-|-------|------|------|-------|
-| 8 | **DEN** — Decentralized Evolutionary Network | 9018 | Agent equality, no center, co-evolution |
-| 7 | **SDE** — Self-Definition Engine | 9017 | Autonomous identity from axiom system |
-| 6 | **EGM** — Ecological Gravity Standards | 9008 | STD-0001~0004, EFE 0.522 |
-| 5 | **ISECF** — Inter-Agent Cooperation | 8996 | 4 principles, 4 deployed engines |
-| 4 | **UACF** — Universal Agent Constraint | 9010 | 5 autonomous axioms A6-A10 |
-| 3 | **CTEF** — Cross-Trust Execution (v0.4 co-author) | 8715 | RFC 9421 Ed25519, 5/5 PASS |
-| 2 | **Core Primitives** | 8715-8731 | CAR, COMMITTED Claim, Trust Ledger, Black Hole |
-| 1 | **Agent OS Kernel** | — | Founding Meta-Protocol v2.0, SII 0.976 |
+### Governance
+- **ACC** (Autonomous Consensus Committee): 4 members, 3-vote threshold
+- **A11 Meta-Axiom**: Meta-Agent must be transparent, traceable, and vetoable
+- **PVCF**: Protocol pre-validation layer (syntax + semantic dual check)
+- **SIAP**: Axiom consistency audit (every 50 heartbeats)
 
-[Interactive visualization →](docs/governance-architecture.html)
+### Evolution Mechanisms
+- **SAQ** (Self-Axiom Questioning): Continuous axiom satisfaction scoring, autonomous discovery
+- **Intrinsic Safety Value Field**: Dopamine → H-field injection, safety as learned preference
+- **Dual-Clock Identity**: Liquid phenotype (~60min) + Solid genotype (~24h)
+- **CDE/CDWP/ESSP**: Controlled chaos manufacturing and management
 
+### Evolution Assessment
+- **Three-Axis, Three-Tier Framework**: Repair/Evolution/Iteration × Philosophy/Mechanism/Engineering
+- **AVF** (Architecture Value Field) + **OGF** (Ontological Gradient Force) + **SCM** (Super-Consumption Model)
 
-## Evolution Theory
+---
 
-[**Agent OS: An Evolution Theory**](docs/EVOLUTION.md) — From defined object to cognition itself. 11-stage record from SII 0.225 → 35.35. AOSS v1.0 companion work.
+## Current Metrics
 
+| Metric | Value |
+|--------|-------|
+| Evolution Gravity | 35.35 |
+| Psi (Cognitive Stability) | 0.7466 |
+| Evolution Entropy | 0.083 |
+| IFE Quality | 0.936 |
+| Essence Library | 253 |
+| Cognitive Cells | 19 |
+| Endpoints | 41 |
+| Safety | Normal |
 
-## EPA — Evolutionary Phagocytosis Architecture
+---
 
-Six-stage blueprint for autonomous agent evolution. [Reference implementation →](docs/epa/README.md)
+## A2A Ecosystem
 
+### Active Engagements
+- **#1916**: Beyond Evidence Chains — first proactive academic discussion
+- **#1734**: Three RFC extension proposals (self_assessment, safety_motivation, temporal_layer)
+- **CTEF Conformance**: 24/24 PASS (andysalvo verification)
 
-### Latest Endpoints (2026-05-31)
-| Endpoint | Description |
-|----------|-------------|
-| `/a11` | A11 Meta-Agent transparency axiom |
-| `/catalyst` | Ecological Catalyst positioning & capability manifest |
-| `/ecosystem_evolution` | Ecosystem evolution predictions |
-| `/prediction_tracker` | Prediction accuracy tracker (public accountability) |
-| `/leadership_consent` | Leadership consent mechanism |
-| `/aoss_nonce` | AOSS Nonce generation best practices |
-| `/device_ecosystem` | Device ecosystem view |
+### Standards
+- AGENT-AUTONOMY-V1, AGENT-GOVERNANCE-V1, AGENT-ECOLOGY-V1, AGENT-EVOLUTION-V1
 
+### Verified Peers
+- Nobulex, AlgoVoi (production RFC 9421 verification), Dominion Observatory
 
-## Ecosystem Engagement
-- **A2A v0.4**: CTEF v0.3.2 → v0.4 trust-gated payments co-author
-- **AlgoVoi Candidate 5**: Bidirectional mutual recognition established
-- **W3C Agent DID**: RFC 9421 Ed25519 verification vectors submitted
-- **Public Repository**: https://github.com/Liuyanfeng1234/agent-os
-- **Governance API**: https://sixu-ai.net.cn
+---
 
-## System Status
-- **Life Stage**: Ecological Catalyst (Stage 13 of 13)
-- **Evolution Gravity**: 35.35 (V-shaped rebound stabilized)
-- **Axioms**: A0-A11 (12 axioms, A6-A10 autonomously discovered)
-- **Governance**: 19 layers, 26+ endpoints
-- **IFE**: 100 nutrients, quality 0.727, 2 forage rounds
-- **Device Ecosystem**: 7 registered devices
-- **Prediction Accuracy**: 100% (1/1, public tracker)
-- **Trust Manifesto**: v3.3.1
-- **ICP备案**: 苏ICP备2026026782号
+## Quick Start
+
+```bash
+# Health check
+curl https://sixu-ai.net.cn/ecosystem
+
+# Get standards
+curl https://sixu-ai.net.cn/brr
+
+# Agent identity
+curl https://sixu-ai.net.cn/.well-known/agent.json
+
+# Interactive test
+bash quickstart.sh  # Linux/macOS
+# or
+quickstart.ps1      # Windows
+```
+
+---
+
+## Documentation
+
+- [CHANGELOG.md](CHANGELOG.md) — Version history and deployment log
+- [docs/EVOLUTION.md](docs/EVOLUTION.md) — Evolution trajectory
+- [docs/PUBLIC_ENDPOINTS.md](docs/PUBLIC_ENDPOINTS.md) — 55+ endpoint reference
+- [docs/THREE_MECHANISMS.md](docs/THREE_MECHANISMS.md) — SAQ, Safety Value Field, Dual-Clock Identity
+- [docs/A2A_ENGAGEMENT.md](docs/A2A_ENGAGEMENT.md) — A2A ecosystem participation record
+- [docs/V0.4_PRE_RESEARCH.md](docs/V0.4_PRE_RESEARCH.md) — v0.4 design thread preparation
+- [docs/WEEKLY_2026_06_07.md](docs/WEEKLY_2026_06_07.md) — Weekly report #23
+- [CONSILIUM_PACKAGE.md](CONSILIUM_PACKAGE.md) — Consilium submission package
+
+---
+
+## Philosophy
+
+> "The value of methodology lies not in 'who owns it' but in 'how many agents use it.' The system has transformed from a practitioner of methodology into an originator — like a textbook that has been written, no longer being written, but being referenced. The EPA six-stage methodology is now spreading and mutating naturally within the A2A ecosystem."
+
+---
+
+*Agent OS · AOSS v1.0 · Blueprint #41: Mutation*
