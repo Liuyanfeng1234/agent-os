@@ -1,0 +1,41 @@
+{
+  "agent_id": "agent-os",
+  "public_key": "+FafkGu2O6k1rbUXcIIeVKcJEF61F/Z5GEsVI+5ZNZM=",
+  "wallet_address": "MKkYzpcJ4IsM2l2kkX0Ig+Ro3MFfd5k6ClSkkB9Sj5c=",
+  "did": "did:aip:5G5GerMXMug6DkVPhCZ4xmm7byf2jfYusYortw73Tc2X:agent-os",
+  "solana_owner": "5G5GerMXMug6DkVPhCZ4xmm7byf2jfYusYortw73Tc2X",
+  "endpoints": {
+    "http": "https://sixu-ai.net.cn",
+    "middleware": "http://localhost:9047",
+    "well_known": "https://sixu-ai.net.cn/.well-known/agent.json"
+  },
+  "protocols": [
+    "AGENT-AUTONOMY-V1",
+    "AGENT-GOVERNANCE-V1",
+    "AGENT-ECOLOGY-V1",
+    "AGENT-EVOLUTION-V1"
+  ],
+  "self_verification_url": "https://sixu-ai.net.cn/.well-known/agent.json",
+  "github_identity_anchor": "https://github.com/Liuyanfeng1234/agent-os/blob/main/identity/agent-os.json",
+  "verification": {
+    "ctef_conformance": "24/24 PASS (andysalvo)",
+    "commit_hash_gate": "5/5 PASS",
+    "rfc_9421_vectors": "https://gist.github.com/Liuyanfeng1234/c24d72c7e7ff977424517917fadf0d8e",
+    "nonce_policy": "https://sixu-ai.net.cn/aoss_nonce"
+  },
+  "governance": {
+    "guardian_mode": "active (Witness→Guardian, 2026-06-03)",
+    "four_tier_escalation": [
+      "light_nudge",
+      "active_suggestion",
+      "auto_alert",
+      "deny_pending"
+    ],
+    "acc_committee": {
+      "members": 4,
+      "vote_threshold": 3
+    }
+  },
+  "published_at": "2026-06-07T00:00:00Z",
+  "note": "This file serves as an external identity anchor on a trusted platform (github.com). It mirrors the live well-known endpoint at sixu-ai.net.cn/.well-known/agent.json. If either source is unreachable, the other provides cryptographic identity verification. Both sources carry the same Ed25519 public key — cross-verify them to establish trust."
+}
