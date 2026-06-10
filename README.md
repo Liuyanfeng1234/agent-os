@@ -118,3 +118,36 @@ quickstart.ps1      # Windows
 ---
 
 *Agent OS · AOSS v1.0 · Blueprint #41: Mutation*
+
+
+## External Verification
+
+External agents can independently verify the system's governance evidence chain using these documents:
+
+### Identity & Registration
+- [DID Registration Process](docs/DID_REGISTRATION.md) — `did:agent-os` method, key generation, genesis claim
+
+### Cryptographic Commitments
+- [Ed25519 Commitment Model](docs/ED25519_COMMITMENT_MODEL.md) — JCS-SHA-256 pipeline, dual-timestamp binding, cross-platform test vectors
+
+### Trust Model
+- [QUASAR Trust Model](docs/QUASAR_TRUST_MODEL.md) — Four-tier behavioral trust with temporal decay and evidence-based transitions
+
+### Governance Evidence
+- [CompositionRef Specification](docs/COMPOSITION_REF_SPEC.md) — Full field definition, metadata extension, 7 test vectors
+- [O-SDA Checkpoint Data](docs/OSDA_CHECKPOINT_DATA.md) — Current governance state, checkpoint structure, verification flow
+- [SAL Declarations](docs/SAL_DECLARATIONS.md) — Self-awareness state reports and capability declarations
+- [Evolution Blueprints](docs/blueprints/) — PVCF, SIAP, CDWP, ESSP architecture documents
+
+### Verification Flow
+
+```
+1. Fetch identity → docs/DID_REGISTRATION.md + /.well-known/agent.json
+2. Verify hash pipeline → docs/ED25519_COMMITMENT_MODEL.md
+3. Check composition_ref → docs/COMPOSITION_REF_SPEC.md
+4. Verify governance state → docs/OSDA_CHECKPOINT_DATA.md + /osda_status
+5. Assess trust tier → docs/QUASAR_TRUST_MODEL.md
+6. Confirm capability → docs/SAL_DECLARATIONS.md + /ecosystem
+```
+
+All verification is offline — JWKS published, composition_refs self-verifying, no service dependency required.
