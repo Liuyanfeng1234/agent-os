@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-10T09:02:23Z",
+  "a2a_1916": {
+    "comments": 0
+  },
+  "a2a_1918": {
+    "comments": 19
+  },
+  "a2a_1919": {
+    "comments": 0
+  },
+  "a2a_1921": {
+    "comments": 0
+  },
+  "a2a_1924": {
+    "comments": 0
+  },
+  "a2a_1734": {
+    "comments": 389
+  },
+  "argentum_core_10": {
+    "comments": 3,
+    "state": "OPEN"
+  },
+  "autogen_7353": {
+    "comments": 90,
+    "state": "OPEN"
+  },
+  "external_participants": {
+    "a2a_1734": [
+      "desiorac",
+      "kenneives"
+    ],
+    "argentum_core_10": [
+      "giskard09"
+    ],
+    "autogen_7353": [
+      "giskard09"
+    ]
+  },
+  "summary": {
+    "a2a_own_engagement": 1,
+    "closest_to_adoption": "argentum-core#10",
+    "total_external": 4
+  }
+}
