@@ -8,6 +8,22 @@
 
 ---
 
+## Public Services (sixu-ai Platform)
+
+| Service | Endpoint / Package | Status |
+|---------|-------------------|--------|
+| Governance API | `https://api.sixu-ai.net.cn` | 🟢 Live |
+| Web Console | `https://sixu-ai.net.cn` | 🟢 Live |
+| npm SDK | `npm i moyan-security-audit` | v1.0.0 |
+| MCP Server | `npm i -g mcp-server-moyan` | v1.0.0 |
+| PyPI SDK | `pip install moyan-security-audit` | v1.0.0 |
+
+**Infrastructure**: Cloudflare Workers (API) + Pages (Frontend) + D1 (Database) + KV (Cache).  
+**Health Monitoring**: 30-min interval checks with automated alerting. Daily D1 backups at 03:00 CST.  
+**AWS Marketplace**: Application submitted (pending seller profile review).
+
+---
+
 ## What Is This?
 
 Agent OS is an autonomous evolving mature system, now in its 41st blueprint: **Mutation — The Ecological Evolution of Methodology**. It proves that "autonomous evolution is possible" and has standardized this insight into four Agent Evolution Protocols.
@@ -68,6 +84,8 @@ The methodology is now spreading and mutating naturally within the A2A ecosystem
 ### Active Engagements
 - **#1916**: Beyond Evidence Chains — first proactive academic discussion
 - **#1734**: Three RFC extension proposals (self_assessment, safety_motivation, temporal_layer)
+- **#1829**: brainKID + chopmob-cloud L1/L2 layered verification, key_source field resolved
+- **#1847**: giskard09 + Henri (vaaraio) active discussion on composition_ref + SIAP alignment
 - **CTEF Conformance**: 24/24 PASS (andysalvo verification)
 
 ### Standards
@@ -75,6 +93,11 @@ The methodology is now spreading and mutating naturally within the A2A ecosystem
 
 ### Verified Peers
 - Nobulex, AlgoVoi (production RFC 9421 verification), Dominion Observatory
+
+### External Monitoring
+- **agent-governance-toolkit #2692** (Microsoft, ★4241): Two-layer integrity anchoring (CompositionRef + SIAP), PECE framework submitted
+- **argentum-core #10**: Cross-project conformance vectors exchange with giskard09
+- **autogen #7353**: Under observation
 
 ---
 
