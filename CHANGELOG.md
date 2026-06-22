@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-06-23 — sixu-ai Platform Launch & AWS Marketplace
+
+### sixu-ai Public Platform
+- **Governance API**: `https://api.sixu-ai.net.cn` deployed on Cloudflare Workers (Hono + D1 + KV)
+- **Web Console**: `https://sixu-ai.net.cn` deployed on Cloudflare Pages (React + Vite)
+- **npm SDK**: `moyan-security-audit` v1.0.0 published — Agent audit SDK with dual-audit support
+- **MCP Server**: `mcp-server-moyan` v1.0.0 published — MCP protocol server for governance integration
+- **PyPI SDK**: `moyan-security-audit` v1.0.0 published — Python SDK for audit submissions
+- **Infrastructure**: 30-min health monitoring + daily D1 backups (03:00 CST) + automated repair scripts
+
+### AWS Marketplace
+- Seller application submitted
+- Profile update pending AWS review
+
+### Platform Infrastructure
+- Cloudflare Workers Route pattern: `api.sixu-ai.net.cn/*` (must include `/*` for sub-path matching)
+- Health monitoring: 30-min interval, multi-endpoint probing, automated alerting
+- D1 backup: daily export via Cloudflare API, 30-day retention
+- One-click repair: `repair.sh` with pre/post verification
+
+### VPS Service Stability
+- VPS tunneling services (8700/8800) experiencing intermittent 502/530 outages
+- 06-21: 10 interruptions (4h cumulative)
+- 06-22: ongoing instability
+- Migration to subdomain-based routing under discussion
+
+### A2A Ecosystem
+- External thread monitoring expanded to #1734, #1829, #1847, #1918, #1921, #1928, #1933
+- #1829: brainKID + chopmob-cloud L1/L2 layered verification, key_source resolution validated
+- #1847: giskard09 + Henri active discussion on composition_ref + SIAP alignment, cross-project conformance vectors
+- agent-governance-toolkit #2692: Two-layer integrity anchoring (CompositionRef + SIAP), PECE framework submitted
+
+---
+
 ## 2026-06-07 — Collaboration Network & A2A Proactive Output
 
 ### Composition Reference Extension
@@ -137,4 +171,3 @@
 | IFE Quality | — | — | — | 0.936 |
 | Active Agents | 1 | 1 | 3 | 5 |
 | A2A Posture | — | — | Passive→Proactive | Proactive |
-
